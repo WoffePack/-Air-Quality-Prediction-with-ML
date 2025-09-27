@@ -1,0 +1,728 @@
+[
+{"timestamp": "2024-11-17T06:23:23Z", "data": {
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 1000,
+    "found": 9
+  },
+  "results": [
+    {
+      "id": 2537,
+      "name": "US Diplomatic Post: Jakarta South",
+      "locality": null,
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 257,
+        "name": "StateAir JakartaSouth"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 5047,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.236585,
+        "longitude": 106.793335
+      },
+      "licenses": null,
+      "bounds": [
+        106.793335,
+        -6.236585,
+        106.793335,
+        -6.236585
+      ],
+      "distance": 5285.93058746,
+      "datetimeFirst": {
+        "utc": "2016-01-30T01:00:00Z",
+        "local": "2016-01-30T08:00:00+07:00"
+      },
+      "datetimeLast": {
+        "utc": "2016-11-09T16:00:00Z",
+        "local": "2016-11-09T23:00:00+07:00"
+      }
+    },
+    {
+      "id": 2538,
+      "name": "US Diplomatic Post: Jakarta Central",
+      "locality": null,
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 256,
+        "name": "StateAir JakartaCentral"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 5048,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.182382,
+        "longitude": 106.834094
+      },
+      "licenses": null,
+      "bounds": [
+        106.834094,
+        -6.182382,
+        106.834094,
+        -6.182382
+      ],
+      "distance": 2271.89840642,
+      "datetimeFirst": {
+        "utc": "2016-01-30T01:00:00Z",
+        "local": "2016-01-30T08:00:00+07:00"
+      },
+      "datetimeLast": {
+        "utc": "2016-11-09T16:00:00Z",
+        "local": "2016-11-09T23:00:00+07:00"
+      }
+    },
+    {
+      "id": 8320,
+      "name": "Jakarta South",
+      "locality": "N/A",
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 5077558,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.236704,
+        "longitude": 106.793244
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        106.793244,
+        -6.236704,
+        106.793244,
+        -6.236704
+      ],
+      "distance": 5302.45926656,
+      "datetimeFirst": {
+        "utc": "2022-10-03T20:00:00Z",
+        "local": "2022-10-04T03:00:00+07:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-11-17T05:00:00Z",
+        "local": "2024-11-17T12:00:00+07:00"
+      }
+    },
+    {
+      "id": 8637,
+      "name": "Jakarta Central",
+      "locality": "N/A",
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 2085314,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O₃"
+          }
+        },
+        {
+          "id": 25072,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.182536,
+        "longitude": 106.834235
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        106.834235,
+        -6.182536,
+        106.834235,
+        -6.182536
+      ],
+      "distance": 2263.64593093,
+      "datetimeFirst": {
+        "utc": "2016-11-09T18:00:00Z",
+        "local": "2016-11-10T01:00:00+07:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-11-17T05:00:00Z",
+        "local": "2024-11-17T12:00:00+07:00"
+      }
+    },
+    {
+      "id": 223262,
+      "name": "Cilandek",
+      "locality": null,
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 6,
+        "name": "Unknown Community Organization"
+      },
+      "provider": {
+        "id": 200,
+        "name": "HabitatMap"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 5,
+          "name": "HabitatMap Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 1294751,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.274138909,
+        "longitude": 106.799896471
+      },
+      "licenses": null,
+      "bounds": [
+        106.799896471,
+        -6.274138909,
+        106.799896471,
+        -6.274138909
+      ],
+      "distance": 8572.95917286,
+      "datetimeFirst": null,
+      "datetimeLast": null
+    },
+    {
+      "id": 223824,
+      "name": "Cilandek",
+      "locality": null,
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 6,
+        "name": "Unknown Community Organization"
+      },
+      "provider": {
+        "id": 200,
+        "name": "HabitatMap"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 5,
+          "name": "HabitatMap Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 1296386,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.274094251,
+        "longitude": 106.79987099
+      },
+      "licenses": null,
+      "bounds": [
+        106.79987099,
+        -6.274094251,
+        106.79987099,
+        -6.274094251
+      ],
+      "distance": 8569.20192241,
+      "datetimeFirst": null,
+      "datetimeLast": null
+    },
+    {
+      "id": 1489107,
+      "name": "Cipete",
+      "locality": null,
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 6,
+        "name": "Unknown Community Organization"
+      },
+      "provider": {
+        "id": 200,
+        "name": "HabitatMap"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 11,
+          "name": "Aerosol Black Carbon Detector (ABCD)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 6836394,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.273957945,
+        "longitude": 106.799961515
+      },
+      "licenses": null,
+      "bounds": [
+        106.799961515,
+        -6.273957945,
+        106.799961515,
+        -6.273957945
+      ],
+      "distance": 8551.69429817,
+      "datetimeFirst": null,
+      "datetimeLast": null
+    },
+    {
+      "id": 1776543,
+      "name": "Jihan Fauziah Hamdi ",
+      "locality": null,
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "AirGradient Sensor"
+        },
+        {
+          "id": 7,
+          "name": "AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 7970906,
+          "name": "pm1 µg/m³",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "µg/m³",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 7978661,
+          "name": "pm1 µg/m³",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "µg/m³",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 7978658,
+          "name": "pm10 µg/m³",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 7971172,
+          "name": "pm10 µg/m³",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 7325489,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 7972690,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 7325488,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 7972693,
+          "name": "um003 particles/cm³",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm³",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.2210686,
+        "longitude": 106.8254998
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0 DEED",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        106.8254998,
+        -6.2210686,
+        106.8254998,
+        -6.2210686
+      ],
+      "distance": 2242.13159825,
+      "datetimeFirst": {
+        "utc": "2023-10-30T13:00:00Z",
+        "local": "2023-10-30T20:00:00+07:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-05-26T00:00:00Z",
+        "local": "2024-05-26T07:00:00+07:00"
+      }
+    },
+    {
+      "id": 2071976,
+      "name": "Krukut",
+      "locality": null,
+      "timezone": "Asia/Jakarta",
+      "country": {
+        "id": 1,
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "AirGradient Sensor"
+        },
+        {
+          "id": 7,
+          "name": "AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 7978106,
+          "name": "pm1 µg/m³",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "µg/m³",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 7971293,
+          "name": "pm1 µg/m³",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "µg/m³",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 7970805,
+          "name": "pm10 µg/m³",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 7978130,
+          "name": "pm10 µg/m³",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "µg/m³",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 7666066,
+          "name": "pm25 µg/m³",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 7971581,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 7666067,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 7971576,
+          "name": "um003 particles/cm³",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm³",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -6.159382,
+        "longitude": 106.818018
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0 DEED",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        106.818018,
+        -6.159382,
+        106.818018,
+        -6.159382
+      ],
+      "distance": 4645.02628481,
+      "datetimeFirst": {
+        "utc": "2024-01-09T08:00:00Z",
+        "local": "2024-01-09T15:00:00+07:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-09-10T08:00:00Z",
+        "local": "2024-09-10T15:00:00+07:00"
+      }
+    }
+  ]
+}}
+]
